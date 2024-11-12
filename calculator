@@ -1,0 +1,8 @@
+echo -n "ENTER THE FIRST NUMBER: "
+read num1
+echo -n "ENTER THE SECOND: "
+read num2
+
+sum=$((num1 * num2))
+
+echo "The result of multiplying $num1 and $num2 is $sum"
